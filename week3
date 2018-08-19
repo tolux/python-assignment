@@ -1,0 +1,23 @@
+#a program to play a guess game 
+
+from random import* 
+t = randint(1, 100)    # to create a random number between 1 and 100.
+
+guess = int(input('Enter an integer from 1 to 100: '))
+
+while (t!= guess):
+    if (t - guess <=10):
+    	
+        print ('you are close ,try again')
+        guess = int(input('Enter an integer from 1 to 100: '))
+        
+    elif (t - guess >= 11):
+        print ('you are not close  try again')
+        guess = int(input('Enter an integer from 1 to 100: '))
+    elif (t==guess):
+        print ('you guess right')
+        break
+else:
+	print('end of game')
+        
+

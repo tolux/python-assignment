@@ -1,0 +1,61 @@
+#week 1 to week2 assignment
+#assigment 1
+#a program to calculate x=(-b +4ac)/2a
+
+a=5
+b=8
+c=2
+x=(-b +4*a*c)/2*a
+print('the result= ',x)
+
+
+#assignment 2
+#a program to ask user of thier age and print out what their age wil be in the next 100 years
+
+age= int(input('Enter your Age= '))
+dob=2018 - age
+futureage= dob + 100
+print('you will be 100 years in the year =',futureage)
+
+
+#assigment 3
+#a progam to calculate the area of a sector
+from math import pi
+
+radius= float(input('enter a value for radius = '))
+
+degree = float(input('enter a value for degree = '))
+
+area= (degree/360)*pi*radius*radius
+round(area,2)
+print('the area of sector =',area)
+
+
+#assigment 4
+#a program to calculate Rea of trapezoid 
+b1= int(input('enter a value for first width = '))
+
+b2= int(input('enter a value for second width = '))
+
+h= int(input('enter a value for height = '))
+
+area2=1/2*(b1+b2)*h
+print('the areaof trapezoid=',area2)
+
+
+#program to calculate the area of square 
+
+length= int (input('enter a value for the length of the squrea'))
+
+squareArea= 2* pi * r *(r+h)
+print('Area of the square= ',squareArea)
+
+
+#program to calculate the area of triangle
+
+l= int (input('enter a value for the length of the triangle'))
+
+b= int (input('enter a value for the breadtg of the triangle'))
+
+triangleArea= (l+b)/2
+print('Area of triangle= ',triangleArea)
